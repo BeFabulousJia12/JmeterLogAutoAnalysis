@@ -31,8 +31,11 @@ NoResponse Count: 0
 ==================== Aggregate Report ====================
 
 Lable | Samples | Average | Median | 90% Line | 95% Line | 99% Line | Min | Max | Error%  | TPS 
+
 BeanShell Sampler | 1 | 25 | 25 | 25 | 25 | 25 | 25 | 25 | 0.0 | 40.0
+
 Logon | 1000 | 20005 | 20002 | 20004 | 20009 | 20046 | 20000 | 21017 | 1.0 | 9.020141977034719
+
 TCP_定时上报_ICall_HB_TextPush | 163000 | 60485 | 60002 | 60008 | 60017 | 85691 | 59999 | 120001 | 0.0 | 16.336045484361243
 
 同时该结果也会被插入到mysql数据库里，便于前端页面展示测试数据
