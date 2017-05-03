@@ -7,7 +7,7 @@
 2. 测试执行机器的日志都插入到数据库里，便于可以在前端展示测试结果；
 3. 通过FTP下载，可以下载具体的错误日志信息
 
-Perflogfile.csv和AssertError.txt这两个日志是jmeter性能测试后得到的聚合报告样本和断言结果样本，也是我们主要分析的对象。
+Perflogfile.csv和AssertError.txt这两个日志是jmeter性能测试后得到的聚合报告样本和断言结果样本，也是主要分析的对象。
 
 具体过程如下：
 1. 断言结果的脚本，通过运行LogAnalysisAuto.py脚本，将会生成errorRequest.txt的文件，该文件是提供给AnalysizeReqRespData.java运行的输入文件（具体可查看该java文件的main函数）
