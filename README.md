@@ -1,3 +1,4 @@
+
 # JmeterLogAutoAnalysis
 每次跑完分布式Jmeter性能测试后，都需要手动分析聚合报告和错误的日志，为了解放生产力，特别写了一个自动化分析聚合报告和错误日志的框架。
   
@@ -28,6 +29,7 @@ NoResponse Count: 0
 3. 运行SamplingStatCalculator.java可以自动分析聚合报告Perflogfile.csv, 分析完毕后，会生成Aggregate_Report.txt，这个结果跟打开Jmeter，导入Perflogfile.csv文件看到的聚合结果是一致的，因为我已经把Jmeter关于聚合统计计算的核心代码进行了二次开发和封装。
 
 ==================== Aggregate Report ====================
+
 Lable | Samples | Average | Median | 90% Line | 95% Line | 99% Line | Min | Max | Error%  | TPS 
 BeanShell Sampler | 1 | 25 | 25 | 25 | 25 | 25 | 25 | 25 | 0.0 | 40.0
 Logon | 1000 | 20005 | 20002 | 20004 | 20009 | 20046 | 20000 | 21017 | 1.0 | 9.020141977034719
